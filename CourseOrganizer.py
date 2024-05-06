@@ -18,7 +18,7 @@ from langchain.chains import VectorDBQA
 # If CharacterTextSplitter is part of a specific module in the updated library
 from langchain.text_splitter import CharacterTextSplitter
 
-
+#
 # Load environment variables
 load_dotenv()
 api_key = os.getenv("OPENAI_SECRET_KEY")
